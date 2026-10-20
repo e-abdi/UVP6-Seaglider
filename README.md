@@ -32,8 +32,8 @@ I used PETG to 3D print the brackets with 100% infill. You could also machine th
 
 CAD files (STEP):
 
-- [Brackets](pics/Brackets.step)
-- [Shell parts](pics/Shell%20Parts.step)
+- [Brackets](mechanical/Brackets.step)
+- [Shell parts](mechanical/Shell%20Parts.step)
 
 ## Assembly
 
