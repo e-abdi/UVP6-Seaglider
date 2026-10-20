@@ -1,6 +1,6 @@
-# Mechanical integration of UVP6 on Seaglider
+# Integration of UVP6 on Seaglider
 
-![Mechanical integration of UVP6 on Seaglider](pics/uvp6-on-Seaglider.png)
+![Integration of UVP6 on Seaglider](pics/uvp6-on-Seaglider.png)
 
 The mechanical integration started under the Bioglider project. After a few iterations of mechanical integration, the last deployments in June 2024 and consequently in 2025 resulted in a good Seaglider flight. This integration requires the user to modify their glider front fairing. This includes a few simple cuts of the fiberglass nose and replacing it with a plastic part which also acts as a bracket for the UVP6. Then, in theory, you should be able to remove your UVP6 and still run the glider as before by adding nose weight plates, but I have not tested this yet.
 
@@ -30,6 +30,11 @@ Below is a side view of the different parts inside the nose of the front fairing
 
 I used PETG to 3D print the brackets with 100% infill. You could also machine them in POM. The only thing to note is that POM is slightly denser than PETG, so that should be accounted for while ballasting.
 
+CAD files (STEP):
+
+- [Brackets](pics/Brackets.step)
+- [Shell parts](pics/Shell%20Parts.step)
+
 ## Assembly
 
 - Press-fit two locknuts inside the base piece, then attach one of the bolts to it.
@@ -56,11 +61,3 @@ I used PETG to 3D print the brackets with 100% infill. You could also machine th
 
 Depending on how many nose weight plates your glider already has, you will need to carry out a trim-sheet calculation first and then a tank test to verify it prior to deployment. The camera bracket assembly is 510 g heavier in water compared to the piece you have just removed. In our case, we actually had 944 g of weight plates, so we ended up being lighter and had to add some weight bars on the hull just behind the altimeter.
 
-## Future improvements
-
-- Improve the design for an easier assembly, possibly by creating some custom assembly tools.
-- Add a bracket around the arm and wiring like the SeaExplorer integration.
-
-![UVP6 on SeaExplorer](pics/uvp6-on-seaexplorer.png)
-
-- Add nose weight plate support to the bracket so that the glider can still be ballasted and flown with the same fairing after removing the UVP6.
